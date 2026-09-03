@@ -8,8 +8,8 @@
 
   <title>Audix CRM</title>
 
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Audix CRM">
+  <meta http-equiv="refresh"
+        content="1;url=https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_gWc5MTPWUOMWSkTnmJUvJNgzPxS9IlMvCQras4UtmdUOEpQVjZXMU42TkVDOTNYTDBVTFNEODZPUi4u">
 
   <style>
     body {
@@ -45,13 +45,10 @@
     const formURL =
       "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_gWc5MTPWUOMWSkTnmJUvJNgzPxS9IlMvCQras4UtmdUOEpQVjZXMU42TkVDOTNYTDBVTFNEODZPUi4u";
 
-    window.addEventListener("load", function () {
-      setTimeout(function () {
-        window.location.href = formURL;
-      }, 1000);
-    });
+    setTimeout(function () {
+      window.location.replace(formURL);
+    }, 1000);
   </script>
-
 </head>
 
 <body>
